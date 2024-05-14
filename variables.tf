@@ -32,3 +32,9 @@ variable "waypoint_application" {
     error_message = "waypoint_application must not contain dashes or underscores."
   }
 }
+
+variable "repo_visibility" {
+  description = "The visibility level of the GitHub repository."
+  type        = string
+}
+
